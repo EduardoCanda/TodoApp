@@ -1,3 +1,5 @@
+/.vscode
+
 /Todo.Domain/bin
 /Todo.Domain/obj
 
@@ -6,3 +8,6 @@
 
 /Todo.Domain.Infra/bin
 /Todo.Domain.Infra/obj
+
+/Todo.Domain.Tests/bin
+/Todo.Domain.Tests/obj
