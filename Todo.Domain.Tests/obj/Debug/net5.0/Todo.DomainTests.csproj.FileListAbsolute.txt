@@ -98,3 +98,4 @@ C:\Dev\Todo\Todo.Domain.Tests\obj\Debug\net5.0\Todo.DomainTests.pdb
 C:\Dev\Todo\Todo.Domain.Tests\obj\Debug\net5.0\Todo.DomainTests.genruntimeconfig.cache
 C:\Dev\Todo\Todo.Domain.Tests\bin\Debug\net5.0\Todo.Domain.dll
 C:\Dev\Todo\Todo.Domain.Tests\bin\Debug\net5.0\Todo.Domain.pdb
+C:\Dev\Todo\Todo.Domain.Tests\bin\Debug\net5.0\Flunt.dll
