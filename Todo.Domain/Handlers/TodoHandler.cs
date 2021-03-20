@@ -23,7 +23,7 @@ namespace Todo.Domain.Handlers
             if (command.Invalid)
                 return new GenericCommandResult(false, "Ops, parece que sua tarefa está errada!", command.Notifications);
 
-            // Salvar o todo no banco
+            // Gera o todo
             var todo = new TodoItem(command.Title, command.User, command.Date);
 
             // Salvar no banco
