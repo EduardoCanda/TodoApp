@@ -5762,9 +5762,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Todo\\Todo.Domain.Tests\\Todo.DomainTests.csproj",
-      "projectName": "Todo.DomainTests",
-      "projectPath": "C:\\Dev\\Todo\\Todo.Domain.Tests\\Todo.DomainTests.csproj",
+      "projectUniqueName": "C:\\Dev\\Todo\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj",
+      "projectName": "Todo.Domain.Tests",
+      "projectPath": "C:\\Dev\\Todo\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj",
       "packagesPath": "C:\\Users\\Eduardo Canda\\.nuget\\packages\\",
       "outputPath": "C:\\Dev\\Todo\\Todo.Domain.Tests\\obj\\",
       "projectStyle": "PackageReference",
