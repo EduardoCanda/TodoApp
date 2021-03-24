@@ -1,15 +1,17 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Todo.Domain.Entities;
 using System.Collections.Generic;
+using System;
+using System.Linq;
 
 namespace Todo.Domain.Tests.QueryTests
 {
     [TestClass]
-    public class TodoQueriesTests
+    public class TodoQueryTests
     {
         private List<TodoItem> _items;
 
-        public TodoQueriesTests()
+        public TodoQueryTests()
         {
             _items = new List<TodoItem>();
             _items.Add(new TodoItem("Tarefa 1", "UsuarioA", DateTime.Now));
@@ -23,6 +25,8 @@ namespace Todo.Domain.Tests.QueryTests
         [TestMethod]
         public void Deve_retornar_tarefas_apenas_do_usuario_eduardocanda()
         {
+            var result = _items.Where(TodoQueries);
+            
             Assert.Fail();
         }
 
