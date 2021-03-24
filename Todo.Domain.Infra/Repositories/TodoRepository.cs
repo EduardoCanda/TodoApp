@@ -50,10 +50,9 @@ namespace Todo.Domain.Infra.Repositories
 
         public TodoItem GetById(Guid id, string user)
         {
-            return (TodoItem)_context.Todos
+            return _context.Todos
                 .AsNoTracking()
-                .Where(TodoQueries.GetById(id, user))
-                .OrderBy(x => x.Date);
+                .FirstOrDefault(TodoQueries.GetById(id, user));
         }
 
         public IEnumerable<TodoItem> GetByPeriod(string user, DateTime date, bool done)
