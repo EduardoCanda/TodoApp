@@ -3,6 +3,7 @@ using Todo.Domain.Entities;
 using System.Collections.Generic;
 using System;
 using System.Linq;
+using Todo.Domain.Queries;
 
 namespace Todo.Domain.Tests.QueryTests
 {
@@ -25,7 +26,7 @@ namespace Todo.Domain.Tests.QueryTests
         [TestMethod]
         public void Deve_retornar_tarefas_apenas_do_usuario_eduardocanda()
         {
-            var result = _items.Where(TodoQueries);
+            // var result = _items.Where(TodoQueries.GetAll("eduardocanda"));
             
             Assert.Fail();
         }

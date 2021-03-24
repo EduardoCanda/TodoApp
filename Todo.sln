@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Domain.Api", "Todo.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Domain.Infra", "Todo.Domain.Infra\Todo.Domain.Infra.csproj", "{7E73540F-5470-474E-A15C-61DC68F50054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.DomainTests", "Todo.Domain.Tests\Todo.DomainTests.csproj", "{B79181CA-6D62-4030-AEF3-05FFCF2A5667}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.DomainTests", "Todo.Domain.Tests\Todo.Domain.Tests.csproj", "{B79181CA-6D62-4030-AEF3-05FFCF2A5667}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
