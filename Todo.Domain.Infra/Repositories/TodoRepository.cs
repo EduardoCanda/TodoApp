@@ -5,8 +5,9 @@ using Microsoft.EntityFrameworkCore;
 using Todo.Domain.Entities;
 using Todo.Domain.Infra.Contexts;
 using Todo.Domain.Queries;
+using Todo.Domain.Repositories;
 
-namespace Todo.Domain.Repositories
+namespace Todo.Domain.Infra.Repositories
 {
     public class TodoRepository : ITodoRepository
     {
