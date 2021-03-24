@@ -1,15 +1,14 @@
 using System;
 using System.Collections.Generic;
 using Todo.Domain.Entities;
-using Todo.Domain.Repositories;
 
-namespace Todo.Domain.Tests.Repositories
+namespace Todo.Domain.Repositories
 {
-    public class FakeTodoRepository : ITodoRepository
+    public class TodoRepository : ITodoRepository
     {
         public void Create(TodoItem todo)
         {
-            
+            throw new NotImplementedException();
         }
 
         public IEnumerable<TodoItem> GetAll(string user)
@@ -29,7 +28,7 @@ namespace Todo.Domain.Tests.Repositories
 
         public TodoItem GetById(Guid id, string user)
         {
-            return new TodoItem("Título aqui", user, DateTime.Now);
+            throw new NotImplementedException();
         }
 
         public IEnumerable<TodoItem> GetByPeriod(string user, DateTime date, bool done)
@@ -39,7 +38,7 @@ namespace Todo.Domain.Tests.Repositories
 
         public void Update(TodoItem todo)
         {
-            
+            throw new NotImplementedException();
         }
     }
 }
