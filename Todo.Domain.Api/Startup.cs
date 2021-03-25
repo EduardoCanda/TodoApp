@@ -25,7 +25,11 @@ namespace Todo.Domain.Api
         {
             services.AddControllers();
 
-            services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+            // db in memory
+            // services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+
+            //db sql server
+            services.AddDbContext<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
 
             services.AddTransient<ITodoRepository, TodoRepository>();
             services.AddTransient<TodoHandler, TodoHandler>();
